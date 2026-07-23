@@ -43,14 +43,16 @@
 # TTE version 1.1.1 or later is assumed.
 # =============================================================================
 
+
 # Install once after the package becomes available on CRAN:
 # install.packages("TTE")
 
-library(TTE)
+library("TTE")
 
 options(width = 110)
 
 packageVersion("TTE")
+
 
 # -----------------------------------------------------------------------------
 # 2-1. Load and inspect the sequential-trial data

@@ -14,6 +14,7 @@ The repository accompanies **TTE version 1.1.1**, the first CRAN release.
 - Package website: <https://github.com/nomahi/TTE/>
 - CRAN: <https://CRAN.R-project.org/package=TTE>
 - PDF manual: <https://cran.r-project.org/web/packages/TTE/TTE.pdf>
+- Vignette: <https://github.com/nomahi/TTE/vignette.pdf>
 
 ## Installation
 
