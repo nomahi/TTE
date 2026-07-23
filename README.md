@@ -2,10 +2,6 @@
 
 **Design and Analysis Tools for Target Trial Emulation**
 
-[![R-CMD-check](https://github.com/nomahi/TTE/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nomahi/TTE/actions/workflows/R-CMD-check.yaml)
-[![CRAN status](https://www.r-pkg.org/badges/version/TTE)](https://CRAN.R-project.org/package=TTE)
-[![License: GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-
 `TTE` is an R package providing design and analysis tools for target trial
 emulation with longitudinal observational data. Its functions cover
 person-period data checks, sequentially nested trial construction, inverse
@@ -15,10 +11,9 @@ estimation.
 
 The repository accompanies **TTE version 1.1.1**, the first CRAN release.
 
-- Package website: <https://nomahi.github.io/TTE/>
+- Package website: <https://github.com/nomahi/TTE/>
 - CRAN: <https://CRAN.R-project.org/package=TTE>
-- PDF manual: [`manual/TTE_1.1.1.pdf`](manual/TTE_1.1.1.pdf)
-- Issues: <https://github.com/nomahi/TTE/issues>
+- PDF manual: <https://cran.r-project.org/web/packages/TTE/TTE.pdf>
 
 ## Installation
 
@@ -26,13 +21,6 @@ Install the CRAN release with:
 
 ```r
 install.packages("TTE")
-```
-
-Install the development version from GitHub with:
-
-```r
-install.packages("remotes")
-remotes::install_github("nomahi/TTE")
 ```
 
 ## Main functions
@@ -50,7 +38,7 @@ remotes::install_github("nomahi/TTE")
 | Estimate weighted Kaplan-Meier or Aalen-Johansen curves | `curve_tte()` |
 | Run an individual-cluster bootstrap | `boot_tte()` |
 
-## Synthetic teaching datasets
+## Synthetic example datasets
 
 The package includes two pairs of fully synthetic datasets. They contain no
 actual participant records from the motivating studies.
@@ -73,7 +61,7 @@ The full tutorials estimate all analysis weights from the observed synthetic
 data. This compact example shows the principal ITT workflow.
 
 ```r
-library(TTE)
+library("TTE")
 
 data(SGLT2_baseline)
 data(SGLT2)
@@ -165,8 +153,8 @@ rather than relying on the reference weights bundled with the datasets.
 
 ### SGLT2i versus DPP-4i: all-cause death
 
-- [Japanese tutorial](tutorials/ja/SGLT2_TTE_tutorial_ja.R)
-- [English tutorial](tutorials/en/SGLT2_TTE_tutorial_en.R)
+- [Japanese tutorial](SGLT2_TTE_tutorial_ja.R)
+- [English tutorial](SGLT2_TTE_tutorial_en.R)
 
 This example covers baseline IPTW, loss-to-follow-up IPCW, weighted pooled
 discrete-time modeling, standardized absolute risks, weighted Kaplan-Meier
@@ -174,8 +162,8 @@ curves, and per-protocol artificial-censoring analyses.
 
 ### ARB versus CCB: heart-failure hospitalization with competing death
 
-- [Japanese tutorial](tutorials/ja/ARB_TTE_tutorial_ja.R)
-- [English tutorial](tutorials/en/ARB_TTE_tutorial_en.R)
+- [Japanese tutorial](ARB_TTE_tutorial_ja.R)
+- [English tutorial](ARB_TTE_tutorial_en.R)
 
 This example extends the workflow to sequentially nested trials,
 cause-specific outcome models, standardized cumulative incidence functions,
@@ -250,5 +238,5 @@ GPL-3.
 ## Author
 
 Hisashi Noma  
-Institute of Statistical Mathematics  
+The Institute of Statistical Mathematics  
 ORCID: <https://orcid.org/0000-0002-2520-9949>
