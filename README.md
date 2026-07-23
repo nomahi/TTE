@@ -221,17 +221,6 @@ sample is generally preferable to treating estimated weights as fixed.
   disease: a target trial emulation.* Heart. 2026.
   <https://doi.org/10.1136/heartjnl-2026-328193>
 
-## Citation
-
-Run the following after installation:
-
-```r
-citation("TTE")
-```
-
-GitHub also displays the software citation stored in
-[`CITATION.cff`](CITATION.cff).
-
 ## License
 
 GPL-3.
