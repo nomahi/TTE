@@ -154,7 +154,6 @@ rather than relying on the reference weights bundled with the datasets.
 
 ### SGLT2i versus DPP-4i: all-cause death
 
-- [Japanese tutorial](SGLT2_TTE_tutorial_ja.R)
 - [English tutorial](SGLT2_TTE_tutorial_en.R)
 
 This example covers baseline IPTW, loss-to-follow-up IPCW, weighted pooled
@@ -163,7 +162,6 @@ curves, and per-protocol artificial-censoring analyses.
 
 ### ARB versus CCB: heart-failure hospitalization with competing death
 
-- [Japanese tutorial](ARB_TTE_tutorial_ja.R)
 - [English tutorial](ARB_TTE_tutorial_en.R)
 
 This example extends the workflow to sequentially nested trials,
