@@ -1,0 +1,65 @@
+url: https://nomahi.github.io/TTE/
+
+development:
+  mode: auto
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+
+home:
+  title: TTE — Design and Analysis Tools for Target Trial Emulation
+  description: >
+    Design and analysis tools for target trial emulation using longitudinal
+    observational data.
+
+navbar:
+  structure:
+    left: [reference, news, tutorials, manual]
+    right: [search, github]
+  components:
+    tutorials:
+      text: Tutorials
+      menu:
+        - text: SGLT2i vs DPP-4i — English
+          href: https://github.com/nomahi/TTE/blob/main/tutorials/en/SGLT2_TTE_tutorial_en.R
+        - text: SGLT2i vs DPP-4i — Japanese
+          href: https://github.com/nomahi/TTE/blob/main/tutorials/ja/SGLT2_TTE_tutorial_ja.R
+        - text: ARB vs CCB — English
+          href: https://github.com/nomahi/TTE/blob/main/tutorials/en/ARB_TTE_tutorial_en.R
+        - text: ARB vs CCB — Japanese
+          href: https://github.com/nomahi/TTE/blob/main/tutorials/ja/ARB_TTE_tutorial_ja.R
+    manual:
+      text: PDF manual
+      href: https://github.com/nomahi/TTE/blob/main/manual/TTE_1.1.1.pdf
+    github:
+      text: GitHub
+      href: https://github.com/nomahi/TTE
+
+reference:
+  - title: Data preparation
+    contents:
+      - check_tte
+      - seqdesign_tte
+
+  - title: Inverse probability weighting
+    contents:
+      - est_wt
+      - combine_wt
+      - balance_wt
+      - diagnose_wt
+
+  - title: Outcome and risk estimation
+    contents:
+      - discsurvreg
+      - std_tte
+      - curve_tte
+
+  - title: Resampling
+    contents:
+      - boot_tte
+
+  - title: Synthetic teaching datasets
+    contents:
+      - SGLT2
+      - ARB

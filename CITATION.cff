@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use TTE in research or teaching, please cite the software and the relevant methodological or motivating study."
+title: "TTE: Design and Analysis Tools for Target Trial Emulation"
+type: software
+authors:
+  - given-names: Hisashi
+    family-names: Noma
+    email: noma@ism.ac.jp
+    orcid: "https://orcid.org/0000-0002-2520-9949"
+repository-code: "https://github.com/nomahi/TTE"
+url: "https://nomahi.github.io/TTE/"
+license: GPL-3.0-only
+version: 1.1.1
+date-released: 2026-07-23
+preferred-citation:
+  type: software
+  title: "TTE: Design and Analysis Tools for Target Trial Emulation"
+  authors:
+    - given-names: Hisashi
+      family-names: Noma
+      orcid: "https://orcid.org/0000-0002-2520-9949"
+  year: 2026
+  version: 1.1.1
+  repository-code: "https://github.com/nomahi/TTE"
+references:
+  - type: article
+    title: "Real-world effectiveness of SGLT2 inhibitors in adults aged 75 years or older: a target trial emulation"
+    authors:
+      - family-names: Noma
+        given-names: Hisashi
+      - family-names: Goto
+        given-names: Atsushi
+      - family-names: Sugimoto
+        given-names: Taiki
+      - family-names: Sunada
+        given-names: Hiroshi
+      - family-names: Oda
+        given-names: Fumiaki
+      - family-names: Maeda
+        given-names: Masahiro
+      - family-names: Fukuda
+        given-names: Haruhisa
+    journal: "Age and Ageing"
+    year: 2026
+    notes: "In press"
+  - type: article
+    title: "Heart failure and renal outcomes with angiotensin receptor blockers compared with calcium channel blockers in patients with chronic kidney disease: a target trial emulation"
+    authors:
+      - family-names: Noma
+        given-names: Hisashi
+      - family-names: Kurita
+        given-names: Noriaki
+      - family-names: Fukuma
+        given-names: Shingo
+      - family-names: Fujisawa
+        given-names: Takashi
+      - family-names: Oda
+        given-names: Fumiaki
+      - family-names: Maeda
+        given-names: Masahiro
+      - family-names: Fukuda
+        given-names: Haruhisa
+    journal: "Heart"
+    year: 2026
+    doi: "10.1136/heartjnl-2026-328193"
