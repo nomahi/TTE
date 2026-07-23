@@ -154,7 +154,7 @@ rather than relying on the reference weights bundled with the datasets.
 
 ### SGLT2i versus DPP-4i: all-cause death
 
-- [English tutorial](SGLT2_TTE_tutorial_en.R)
+- [Tutorial](SGLT2_TTE_tutorial_en.R)
 
 This example covers baseline IPTW, loss-to-follow-up IPCW, weighted pooled
 discrete-time modeling, standardized absolute risks, weighted Kaplan-Meier
@@ -162,7 +162,7 @@ curves, and per-protocol artificial-censoring analyses.
 
 ### ARB versus CCB: heart-failure hospitalization with competing death
 
-- [English tutorial](ARB_TTE_tutorial_en.R)
+- [Tutorial](ARB_TTE_tutorial_en.R)
 
 This example extends the workflow to sequentially nested trials,
 cause-specific outcome models, standardized cumulative incidence functions,
